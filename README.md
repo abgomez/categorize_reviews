@@ -11,6 +11,6 @@ We implement text extraction aproaches based in standard data mining techniqiues
 ## Project Files
 To process the unstructured text reviews, our model implements different python libraries. The following describes in a high level implementation in our model.
 
-chunking.py: The goal of chunking.py is to identify stand alone tags and group them with a syntax analysis to generate phrases such noun, verbs, and adjective phrases. To identify the groups and the association of tags, chunking implements syntax rules. Chunking rules have specific purpose and features, our model consider two rules.  A noun phrase rules expressed as `{<DT>?<JJ>*<NN>}` and a verb/adverb phrase rule expressed as `{<RB.?>*<VB.?>*<NNP>+<NN>`.
+[chunking.py](https://github.com/abgomez/categorize_reviews/blob/master/chunking.py): The goal of chunking.py is to identify stand alone tags and group them with a syntax analysis to generate phrases such noun, verbs, and adjective phrases. To identify the groups and the association of tags, chunking implements syntax rules. Chunking rules have specific purpose and features, our model consider two rules.  A noun phrase rules expressed as `{<DT>?<JJ>*<NN>}` and a verb/adverb phrase rule expressed as `{<RB.?>*<VB.?>*<NNP>+<NN>`.
 
 Complete detail of the categorize model can be found at [Reviews Model](https://sites.google.com/view/dataminingspring2019/home)
